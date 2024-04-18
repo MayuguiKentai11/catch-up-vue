@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: "unavailable-content.component",
+  name: "unavailable-content",
   props:{
     errors: null
   }
