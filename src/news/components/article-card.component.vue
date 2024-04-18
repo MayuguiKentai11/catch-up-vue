@@ -40,7 +40,7 @@ export default {
 
       <!-- FOOTER OF THE CARD -->
       <template #footer>
-        <a :href="article.url" target="_blank">Read More</a>
+        <a :href="article.url" target="_blank">Read More</a> <!-- Target = _blank means to open a new tab -->
       </template>
   </pv-card>
 
