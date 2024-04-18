@@ -34,7 +34,6 @@ app.use(PrimeVue, {ripple : true})
 // Add i18n plugins
 app.use(i18n);
 
-
 // Add App Design or Theme
 import 'primevue/resources/themes/md-dark-indigo/theme.css'
 
