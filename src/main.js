@@ -31,6 +31,10 @@ app.use(PrimeVue, {ripple : true})
     .component('pv-menubar',Menubar)
     .component('pv-toolbar', Toolbar);
 
+// Add i18n plugins
+app.use(i18n);
+
+
 // Add App Design or Theme
 import 'primevue/resources/themes/md-dark-indigo/theme.css'
 
@@ -39,6 +43,8 @@ import 'primeicons/primeicons.css'
 
 // Add App Prime flex library
 import 'primeflex/primeflex.css'
+import i18n from "./i18n.js";
+
 
 // Mount into App
 app.mount('#app');
