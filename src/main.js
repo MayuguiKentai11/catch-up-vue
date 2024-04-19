@@ -5,7 +5,7 @@ import App from './App.vue'
 // Add PrimeVue
 import PrimeVue from "primevue/config";
 
-// Add Primevue Components
+// Add PrimeVue Components
 import Card from "primevue/card";
 import Button from "primevue/button";
 import SelectButton from "primevue/selectbutton";
@@ -15,6 +15,15 @@ import Menu from "primevue/menu";
 import Menubar from "primevue/menubar";
 import Toolbar from "primevue/toolbar";
 
+// Add App Design or Theme
+import 'primevue/resources/themes/md-dark-indigo/theme.css'
+
+// Add PrimeIcons
+import 'primeicons/primeicons.css'
+
+// Add App Prime flex library
+import 'primeflex/primeflex.css'
+import i18n from "./i18n.js";
 
 // Create App
 const app = createApp(App);
@@ -33,17 +42,6 @@ app.use(PrimeVue, {ripple : true})
 
 // Add i18n plugins
 app.use(i18n);
-
-// Add App Design or Theme
-import 'primevue/resources/themes/md-dark-indigo/theme.css'
-
-// Add PrimeIcons
-import 'primeicons/primeicons.css'
-
-// Add App Prime flex library
-import 'primeflex/primeflex.css'
-import i18n from "./i18n.js";
-
 
 // Mount into App
 app.mount('#app');

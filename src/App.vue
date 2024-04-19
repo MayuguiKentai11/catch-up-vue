@@ -1,7 +1,11 @@
 <script>
 import {NewsApiService} from "./news/services/news-api.service.js";
-import {Article} from "./news/model/article.entity.js";
 import SideMenu from "./news/components/side-menu.component.vue";
+import ArticleList from "./news/components/article-list.component.vue";
+import UnavailableContent from "./news/components/unavailable-content.component.vue";
+import FooterContent from "./public/components/footer-content.component.vue";
+import LanguageSwitcher from "./public/components/language-switcher.component.vue";
+import {Article} from "./news/model/article.entity.js";
 
 export default {
   name: "app",
